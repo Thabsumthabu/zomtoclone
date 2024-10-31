@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Zomato Clone</title>
+        <link rel="icon" href="pics/icon.ong.webp" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </head>
+    
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="pics/logo.png" alt="Zomato Logo" />
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-mobile-alt"></i> Get the App
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Investor Relations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Add restaurant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Zomato</h1>
+        <p>Discover the best food & drinks in Trivandrum</p>
+
+        <!-- Search Bar -->
+        <div class="input-group search-bar">
+            <div class="input-group-prepend">
+                <button class="btn btn-light dropdown-toggle" type="button">
+                    <i class="fas fa-map-marker-alt" style="color: red"></i> Trivandrum
+                </button>
+            </div>
+            <div class="input-group-prepend">
+                <button class="btn btn-light" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <input type="text" class="form-control" placeholder="Search for restaurant, cuisine or a dish" />
+        </div>
+    </header>
+
+   <!-----------------card section-------------------->
+
+   <section id="zomato-clone-section">
+        
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- First Card -->
+            <div class="col-md-6">
+                <div class="card custom-card">
+                    <img src="pics/card.png" class="card-img-top card-img" alt="Order Online">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Order Online</h5>
+                        <p class="card-text">Stay home and order to your doorstep</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="col-md-6">
+                <div class="card custom-card">
+                    <img src="pics/card2.png" class="card-img-top card-img" alt="Dining">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dining</h5>
+                        <p class="card-text">View the city's favourite dining venues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </section>
+          
+    <!-- Collections Section -->
+    <div class="container my-5">
+    <h2 class="mt-5">Collections</h2>
+    <p>Explore curated lists of top restaurants, cafes, pubs, and bars based on trends.</p>
+    <div class="row g-4">
+        <!-- Collection Cards -->
+        <div class="col-md-6 col-lg-4">
+            <div class="card collection-card">
+                <img src="pics/trvdrm.png" class="card-img" alt="Must-visit restaurants">
+                <div class="card-img-overlay d-flex align-items-end p-3">
+                    <div>
+                        <h5 class="card-title">Must-visit restaurants in Trivandrum</h5>
+                        <p>8 Places</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card collection-card">
+                <img src="pics/cafeees.png" class="card-img" alt="Great Cafes">
+                <div class="card-img-overlay d-flex align-items-end p-3">
+                    <div>
+                        <h5 class="card-title">Great Cafes</h5>
+                        <p>7 Places</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    <!---------------------table-------->
+    <div class="container mt-4">
+        <h2>Popular Localities in and around Trivandrum</h2>
+        <div class="row">
+            <!-- First Page Content -->
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Palayam</div>
+                    <div class="locality-places">194 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Kulathoor</div>
+                    <div class="locality-places">161 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Ambalamukku</div>
+                    <div class="locality-places">113 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Kazhakkoottam</div>
+                    <div class="locality-places">108 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Kumarapuram</div>
+                    <div class="locality-places">105 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Thycaud</div>
+                    <div class="locality-places">92 places</div>
+                </div>
+            </div>
+    
+            <!-- See More Button -->
+            <div class="col-md-4">
+                <div class="btn-see-more" onclick="showMore()">See More</div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <!-- Second Page Content (Hidden Initially) -->
+        <div class="row more-content mt-3">
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Karimana</div>
+                    <div class="locality-places">59 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Poojapura</div>
+                    <div class="locality-places">54 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Sasthamangalam</div>
+                    <div class="locality-places">61 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Kovalam</div>
+                    <div class="locality-places">49 places</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="locality-card">
+                    <div class="locality-name">Nedumangad</div>
+                    <div class="locality-places">47 places</div>
+                </div>
+            </div>
+            <!-- See Less Button -->
+            <div class="col-md-4">
+                <div class="btn-see-more" onclick="showLess()">See Less</div>
+            </div>
+        </div>
+        
+    <!--------------------app------->
+    <div class="container text-center my-5">
+        <!-- App Download Section -->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6">
+            <img src="pics/phones.png" alt="Zomato App Mockup" class="img-fluid mb-4">
+          </div>
+          <div class="col-md-6">
+            <h2>Get the Zomato app</h2>
+            <p>We will send you a link, open it on your phone to download the app</p>
+    
+            <form id="downloadForm">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input " type="radio" name="contactMethod" id="emailOption" value="email" checked>
+                <label class="form-check-label" for="emailOption">Email</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="contactMethod" id="phoneOption" value="phone">
+                <label class="form-check-label" for="phoneOption">Phone</label>
+              </div>
+    
+              <div class="input-group my-3">
+                <input type="text" id="contactInput" class="form-control" placeholder="Enter your email or phone">
+                <button type="button" class="btn btn-danger" onclick="sendLink()">Share App Link</button>
+              </div>
+              <small id="errorMessage" class="text-danger d-none">Please enter a valid email or phone number.</small>
+            </form>
+    
+            <p>Download app from</p>
+            <div>
+              <a href="#"><img src="pics/googlepay.png" alt="Google Play"></a>
+              <a href="#"><img src="pics/app.png" alt="App Store"></a>
+            </div>
+          </div>
+        </div>
+    
+        <!----------explore--------->
+
+        
+        <div class="container mt-5">
+            <h2>Explore options near me</h2>
+            <div id="accordion">
+        
+                <!-- Popular Cuisines Near Me -->
+                <div class="card" style="margin-top: 1rem;">
+                    <div class="card-header d-flex justify-content-between align-items-center" id="headingOne">
+                        <span>Popular Cuisines Near Me</span>
+                        <button class="btn btn-link chevron-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i class="chevron-icon fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Arabian near me &middot; Bakery near me &middot; Beverages near me &middot; Biryani near me &middot; Burger near me &middot; Chinese near me &middot; Desserts near me &middot; Ice Cream near me &middot; Juices near me &middot; Kerala near me &middot; Mughlai near me &middot; North Indian near me &middot; Pizza near me &middot; Sandwich near me &middot; Seafood near me &middot; Shake near me &middot; Shawarma near me &middot; Sichuan near me &middot; South Indian near me &middot; Street near me
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Popular Restaurant Types Near Me -->
+                <div class="card" style="margin-top: 1rem;">
+                    <div class="card-header d-flex justify-content-between align-items-center" id="headingTwo">
+                        <span>Popular Restaurant Types Near Me</span>
+                        <button class="btn btn-link chevron-toggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="chevron-icon fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Arabian near me &middot; Bakery near me &middot; Beverages near me &middot; Biryani near me &middot; Burger near me &middot; Chinese near me &middot; Desserts near me &middot; Ice Cream near me &middot; Juices near me &middot; Kerala near me &middot; Mughlai near me &middot; North Indian near me &middot; Pizza near me &middot; Sandwich near me &middot; Seafood near me &middot; Shake near me &middot; Shawarma near me &middot; Sichuan near me &middot; South Indian near me &middot; Street near me
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Top Restaurant Chains -->
+                <div class="card" style="margin-top: 1rem;">
+                    <div class="card-header d-flex justify-content-between align-items-center" id="headingThree">
+                        <span>Top Restaurant Chains</span>
+                        <button class="btn btn-link chevron-toggle" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="chevron-icon fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Burger King; KFC; McDonald's; Pizza Hut; WOW! Momo
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Cities We Deliver To -->
+                <div class="card" style="margin-top: 1rem;">
+                    <div class="card-header d-flex justify-content-between align-items-center" id="headingFour">
+                        <span>Cities We Deliver To</span>
+                        <button class="btn btn-link chevron-toggle" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="chevron-icon fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Delhi; NCR; Kolkata; Mumbai; Bengaluru; Pune; Hyderabad; Chennai; Lucknow; Kochi; Jaipur; Ahmedabad; Chandigarh; Goa; Indore; Gangtok; Nashik; Ooty; Shimla; Ludhiana; Guwahati; Amritsar; Kanpur; Allahabad; Aurangabad; Bhopal; Ranchi; Visakhapatnam; Bhubaneswar; Coimbatore; Mangalore; Vadodara; Nagpur; Agra; Dehradun; Mysore; Puducherry; Surat; Varanasi; Patna; Udaipur; Srinagar; Khajuraho; Neemrana; Cuttack; Trivandrum; Haridwar; Leh; Pushkar; Rajkot; Madurai; Kozhikode; Alappuzha; Thrissur; Manipal; Vijayawada; Jodhpur; Kota; Ajmer; Mussoorie; Rishikesh; Jalandhar; Jammu; Manali.
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        
+
+         <!-------footer------------->
+
+         <footer class="bg-light pt-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo Section -->
+                    <div class="col-md-2">
+                        <img src="pics/image.png" alt="Zomato Logo" class="img-fluid mb-3" style="width: 60px; height: 30px;">
+                    </div>
+                    
+                    <!-- About Zomato Section -->
+                    <div class="col-md-2">
+                        <h6>ABOUT ZOMATO</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Work With Us</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Report Fraud</a></li>
+                            <li><a href="#">Press Kit</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Zomaverse Section -->
+                    <div class="col-md-2">
+                        <h6>ZOMAVERSE</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Zomato</a></li>
+                            <li><a href="#">Blinkit</a></li>
+                            <li><a href="#">Feeding India</a></li>
+                            <li><a href="#">Hyperpure</a></li>
+                            <li><a href="#">Zomato Live</a></li>
+                            <li><a href="#">Zomaland</a></li>
+                            <li><a href="#">Weather Union</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- For Restaurants Section -->
+                    <div class="col-md-2">
+                        <h6>FOR RESTAURANTS</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Partner With Us</a></li>
+                            <li><a href="#">Apps For You</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Learn More Section -->
+                    <div class="col-md-2">
+                        <h6>LEARN MORE</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Social Links Section -->
+                    <div class="col-md-2 text-center">
+                        <h6>SOCIAL LINKS</h6>
+                        <div class="social-icons mb-2">
+                            <img src="pics/inst.png" alt="Instagram" style="width: 24px; height: 24px;">
+                            <img src="pics/twitters.png" alt="Twitter" style="width: 24px; height: 24px;">
+                            <img src="pics/youtubes.png" alt="YouTube" style="width: 24px; height: 24px;">
+                            <img src="pics/face.png" alt="Facebook" style="width: 24px; height: 24px;">
+                        </div>
+                        <div>
+                            <img src="pics/googlepay.png" alt="Google Play" style="width: 24px; height: 24px;">
+                            <img src="pics/app.png" alt="App Store" style="width: 24px; height: 24px;">
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Footer Bottom Text -->
+                <div class="container text-center mt-3">
+                    <p class="small text-muted">
+                        By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy, and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+          
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+<!-- jQuery, Popper.js, and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+      </body>
+    </html>
+    
